@@ -1,0 +1,49 @@
+﻿ul#Menu {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    margin: 60px;
+    padding: 10px;
+    list-style: none;
+}
+
+    ul#Menu li {
+        background-color: #40916c;
+        border-bottom: 5px solid #54BAE2;
+        display: block;
+        width: 150px;
+        height: 30px;
+        margin: 60px;
+        float: left;
+        text-align: center;
+    }
+
+        ul#Menu li a {
+            color: #fff;
+            display: block;
+            font-weight: bold;
+            line-height: 30px;
+            text-decoration: none;
+            width: 150px;
+            height: 30px;
+            text-align: center;
+        }
+
+        ul#Menu li.active, ul#Menu li:hover {
+            background-color: #2d6a4f;
+            border-bottom: 5px solid #74c69d;
+        }
+
+form {
+    margin: 450px;
+    text-align: center;
+}
+
+
+
+input[type="text"] {
+    background-color: darkgreen;
+}
+
+input[required] {
+    color: white;
+}
